@@ -1,6 +1,10 @@
+#include "rainbow.h"
 #include <iostream>
 
+using namespace std;
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    cout << toMD5("Testing");
+
     return 0;
 }
